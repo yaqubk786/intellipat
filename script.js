@@ -66,7 +66,7 @@ function openModal() {
   modal.style.display = "block";
   const video = modal.querySelector("video");
   video.play();
-  document.body.classList.add('modal-open');
+  document.body.classList.add("modal-open");
 }
 
 function closeModal() {
@@ -75,8 +75,7 @@ function closeModal() {
   const video = modal.querySelector("video");
   video.pause();
   video.currentTime = 0; // rewind video
-  document.body.classList.remove('modal-open');
-
+  document.body.classList.remove("modal-open");
 }
 
 window.onclick = function (event) {
