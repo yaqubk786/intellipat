@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IntelliPat</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <button class="menu-btn" onclick="toggleNav()">☰</button>
+      <div class="headerContainer">
+        <div class="leftBox">
+          <img src="Images\IntelipatLogo.png" alt="logo" />
+          <div class="leftSubText">
+            <p>Internships</p>
+            <p>Jobs</p>
+            <p>Courses</p>
+          </div>
+        </div>
+        <div class="rightBox">
+          <button>Candidate Login</button>
+          <button>Employer Login</button>
+        </div>
+      </div>
+    </header>
+
+    <nav class="side-nav" id="sideNav">
+      <button class="close-btn" onclick="closeNav()">×</button>
+      <div class="imgBox">
+        <img src="Images/IntelipatLogo.png" alt="logo" width="106" height="36"/>
+
+      </div>
+      <div class="navContainer">
+      <ul>
+        <li><a href="#">Internship</a></li>
+        <li><a href="#">Jobs</a></li>
+        <li><a href="#">Courses</a></li>
+      </ul>
+      <div class="btnBox">
+        <div>View All Internships</div>
+        <div>View All Internships</div>
+      </div>
+    </div>
+    </nav>
+
+    <div class="overlay" id="overlay" onclick="closeNav()"></div>
+
+    <section class="internshipBanner">
+      <div class="internshipBannerText">
+        <h1>Find Your Dream Internship!</h1>
+        <p>20000+ Internships for you to explore</p>
+      </div>
+      <form class="search-form">
+        <div class="input-boxes">
+        <div class="sub-input-box">
+            <img src="Images/search.svg" alt="search-icon"/>
+            <input
+            type="text"
+            class="first-input"
+            placeholder="Enter skills / designations / industry"
+          />
+        </div>
+        <input type="text" placeholder="Enter location" class="second-input" />
+        <div class="custom-select">
+            <div class="selected-option">Select category ▾</div>
+            <ul class="dropdown">
+              <li>Technical Internships</li>
+              <li>Project Management</li>
+              <li>Data Science</li>
+              <li>Digital Marketing</li>
+            </ul>
+          </div>
+        </div>
+        <button type="submit">Search</button>
+        </div>
+     
+      </form>
+
+
+      
+    </section>
+    <main>
+      <div class="mainsubDiv">
+        <section class="commonContainer latestInternshipBox">
+          <h2>Latest Internships on Intellipaat</h2>
+          <div class="tabsBox">
+            <div>Project Management Internships</div>
+            <div>Technical Internships</div>
+            <div>Part Time</div>
+            <div>Work from Home</div>
+            <div>Big Brands</div>
+          </div>
+          <section class="carousel-container">
+            <button class="nav-btn left">&#10094;</button>
+
+            <div class="carousel-track">
+              <div class="card">
+                <p class="status">Actively Hiring</p>
+                <p class="post">Human Resources (HR)</p>
+                <p class="company">Intellipaat</p>
+                <div class="card-sub-details">
+                  <p>
+                    <span><img src="Images/address.png" alt="icon" loading="lazy"/></span>Work
+                    From Home
+                  </p>
+                  <p>
+                    <span><img src="Images/rupees.png" alt="icon" loading="lazy"/></span></span>₹
+                    2,000/month + Incentives
+                  </p>
+                  <p>
+                    <span><img src="Images/calendar.png" alt="icon" loading="lazy"/></span></span>2
+                    Months
+                  </p>
+                </div>
+                <a class="detailText">View Details</a>
+              </div>
+              <div class="card">
+                <p class="status">Actively Hiring</p>
+                <p class="post">Human Resources (HR)</p>
+                <p class="company">Intellipaat</p>
+                <div class="card-sub-details">
+                  <p>
+                    <span><img src="Images/address.png" alt="icon" loading="lazy"/></span>Work
+                    From Home
+                  </p>
+                  <p>
+                    <span><img src="Images/rupees.png" alt="icon" loading="lazy"/></span></span>₹
+                    2,000/month + Incentives
+                  </p>
+                  <p>
+                    <span><img src="Images/calendar.png" alt="icon" loading="lazy"/></span></span>2
+                    Months
+                  </p>
+                </div>
+                <a class="detailText">View Details</a>
+              </div>
+              <div class="card">
+                <p class="status">Actively Hiring</p>
+                <p class="post">Human Resources (HR)</p>
+                <p class="company">Intellipaat</p>
+                <div class="card-sub-details">
+                  <p>
+                    <span><img src="Images/address.png" alt="icon" loading="lazy"/></span>Work
+                    From Home
+                  </p>
+                  <p>
+                    <span><img src="Images/rupees.png" alt="icon" loading="lazy"/></span></span>₹
+                    2,000/month + Incentives
+                  </p>
+                  <p>
+                    <span><img src="Images/calendar.png" alt="icon" loading="lazy"/></span></span>2
+                    Months
+                  </p>
+                </div>
+                <a class="detailText">View Details</a>
+              </div>
+              <div class="card">
+                <p class="status">Actively Hiring</p>
+                <p class="post">Human Resources (HR)</p>
+                <p class="company">Intellipaat</p>
+                <div class="card-sub-details">
+                  <p>
+                    <span><img src="Images/address.png" alt="icon" loading="lazy"/></span>Work
+                    From Home
+                  </p>
+                  <p>
+                    <span><img src="Images/rupees.png" alt="icon" loading="lazy"/></span></span>₹
+                    2,000/month + Incentives
+                  </p>
+                  <p>
+                    <span><img src="Images/calendar.png" alt="icon" loading="lazy"/></span></span>2
+                    Months
+                  </p>
+                </div>
+                <a class="detailText">View Details</a>
+              </div>
+              <div class="card">
+                <p class="status">Actively Hiring</p>
+                <p class="post">Human Resources (HR)</p>
+                <p class="company">Intellipaat</p>
+                <div class="card-sub-details">
+                  <p>
+                    <span><img src="Images/address.png" alt="icon" loading="lazy"/></span>Work
+                    From Home
+                  </p>
+                  <p>
+                    <span><img src="Images/rupees.png" alt="icon" loading="lazy"/></span></span>₹
+                    2,000/month + Incentives
+                  </p>
+                  <p>
+                    <span><img src="Images/calendar.png" alt="icon" loading="lazy"/></span></span>2
+                    Months
+                  </p>
+                </div>
+                <a class="detailText">View Details</a>
+              </div>
+              <div class="card">
+                <p class="status">Actively Hiring</p>
+                <p class="post">Human Resources (HR)</p>
+                <p class="company">Intellipaat</p>
+                <div class="card-sub-details">
+                  <p>
+                    <span><img src="Images/address.png" alt="icon" loading="lazy"/></span>Work
+                    From Home
+                  </p>
+                  <p>
+                    <span><img src="Images/rupees.png" alt="icon" loading="lazy"/></span></span>₹
+                    2,000/month + Incentives
+                  </p>
+                  <p>
+                    <span><img src="Images/calendar.png" alt="icon" loading="lazy"/></span></span>2
+                    Months
+                  </p>
+                </div>
+                <a class="detailText">View Details</a>
+              </div>
+           
+            </div>
+
+            <button class="nav-btn right">&#10095;</button>
+          </section>
+          <button class="viewAllBtn">View All Internships</button>
+        </section>
+        <section class="commonContainer latestInternshipBox UgCards">
+          <h2>Undergraduate courses on Intellipaat</h2>
+          <div class="ugSubHeading">100% placement guaranteed!</div>
+          <section class="carousel-container">
+            <button class="nav-btn left">&#10094;</button>
+
+            <div class="carousel-track">
+              <div class="card">
+                <div class="imgBox">
+                  <img src="Images/clgImg.png" alt="clg-img" />
+                </div>
+                <div class="clgInfo">
+                  <p class="course">Data Engineering Course</p>
+                  <div class="clgStatistics">
+                    <div class="ratingContainer">
+                      <div class="ratingBox">
+                        <p>4.8</p>
+                        <img src="Images/rating.svg" alt="icon" />
+                      </div>
+                      <div>(5079)</div>
+                    </div>
+                    <div>2818 Learners</div>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div>
+                  <img src="Images/clgImg.png" alt="clg-img" />
+                </div>
+                <div class="clgInfo">
+                  <p class="course">Data Engineering Course</p>
+                  <div class="clgStatistics">
+                    <div class="ratingContainer">
+                      <div class="ratingBox">
+                        <p>4.8</p>
+                        <img src="Images/rating.svg" alt="icon" />
+                      </div>
+                      <div>(5079)</div>
+                    </div>
+                    <div>2818 Learners</div>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div>
+                  <img src="Images/clgImg.png" alt="clg-img" />
+                </div>
+                <div class="clgInfo">
+                  <p class="course">Data Engineering Course</p>
+                  <div class="clgStatistics">
+                    <div class="ratingContainer">
+                      <div class="ratingBox">
+                        <p>4.8</p>
+                        <img src="Images/rating.svg" alt="icon" />
+                      </div>
+                      <div>(5079)</div>
+                    </div>
+                    <div>2818 Learners</div>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div>
+                  <img src="Images/clgImg.png" alt="clg-img" />
+                </div>
+                <div class="clgInfo">
+                  <p class="course">Data Engineering Course</p>
+                  <div class="clgStatistics">
+                    <div class="ratingContainer">
+                      <div class="ratingBox">
+                        <p>4.8</p>
+                        <img src="Images/rating.svg" alt="icon" />
+                      </div>
+                      <div>(5079)</div>
+                    </div>
+                    <div>2818 Learners</div>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div>
+                  <img src="Images/clgImg.png" alt="clg-img" />
+                </div>
+                <div class="clgInfo">
+                  <p class="course">Data Engineering Course</p>
+                  <div class="clgStatistics">
+                    <div class="ratingContainer">
+                      <div class="ratingBox">
+                        <p>4.8</p>
+                        <img src="Images/rating.svg" alt="icon" />
+                      </div>
+                      <div>(5079)</div>
+                    </div>
+                    <div>2818 Learners</div>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div>
+                  <img src="Images/clgImg.png" alt="clg-img" />
+                </div>
+                <div class="clgInfo">
+                  <p class="course">Data Engineering Course</p>
+                  <div class="clgStatistics">
+                    <div class="ratingContainer">
+                      <div class="ratingBox">
+                        <p>4.8</p>
+                        <img src="Images/rating.svg" alt="icon" />
+                      </div>
+                      <div>(5079)</div>
+                    </div>
+                    <div>2818 Learners</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <button class="nav-btn right">&#10095;</button>
+          </section>
+          <button class="viewAllBtn">View All Internships</button>
+        </section>
+        <section class="commonContainer">
+          <div class="enrollmentData">
+            <div>
+              <p class="numbers">5000+</p>
+              <p class="texts">Internships</p>
+            </div>
+            <div>
+              <p class="numbers">20000+</p>
+              <p class="texts">Students Applied</p>
+            </div>
+            <div>
+              <p class="numbers">15000+</p>
+              <p class="texts">Students Applied</p>
+            </div>
+          </div>
+        </section>
+      </div>
+      <section class="realStoriesBox">
+        <img src="Images/comma.svg" alt="icon" class="comma-icon" />
+        <p class="storiesHeading">Real Stories from Successful Interns</p>
+        <div class="cardContainer">
+          <div class="card">
+            <div class="peopleInfo">
+              <div class="peopleImg">
+                <img src="Images/people.png" alt="interns" />
+              </div>
+              <div class="peopleName">Rahul R</div>
+            </div>
+            <div class="peopleCompany">
+              <div class="position">Web Developer at Amdocs, India</div>
+              <img
+                src="Images/amdocslogo.png"
+                alt="company-logo"
+                width="112"
+                height="32"
+              />
+            </div>
+            <div class="feedback">
+              I am thrilled to have secured my first job as a Web Developer at
+              Amdocs after completing Intellipaat’s training. The program
+              equipped me with the skills and confidence to crack three
+              interviews successfully during campus placements, landing multiple
+              offers from top companies. I credit Intellipaat’s expert trainers
+              and outstanding support team for making my learning journey
+              effective and impactful. Their guidance has been instrumental in
+              helping me achieve a rewarding role at an MNC. 
+            </div>
+          </div>
+          <div class="card">
+            <div class="peopleInfo">
+              <div class="peopleImg">
+                <img src="Images/people.png" alt="interns" />
+              </div>
+              <div class="peopleName">Rahul R</div>
+            </div>
+            <div class="peopleCompany">
+              <div class="position">Web Developer at Amdocs, India</div>
+              <img
+                src="Images/amdocslogo.png"
+                alt="company-logo"
+                width="112"
+                height="32"
+              />
+            </div>
+            <div class="feedback">
+              I am thrilled to have secured my first job as a Web Developer at
+              Amdocs after completing Intellipaat’s training. The program
+              equipped me with the skills and confidence to crack three
+              interviews successfully during campus placements, landing multiple
+              offers from top companies. I credit Intellipaat’s expert trainers
+              and outstanding support team for making my learning journey
+              effective and impactful. Their guidance has been instrumental in
+              helping me achieve a rewarding role at an MNC. 
+            </div>
+          </div>
+          <div class="card">
+            <div class="peopleInfo">
+              <div class="peopleImg">
+                <img src="Images/people.png" alt="interns" />
+              </div>
+              <div class="peopleName">Rahul R</div>
+            </div>
+            <div class="peopleCompany">
+              <div class="position">Web Developer at Amdocs, India</div>
+              <img
+                src="Images/amdocslogo.png"
+                alt="company-logo"
+                width="112"
+                height="32"
+              />
+            </div>
+            <div class="feedback">
+              I am thrilled to have secured my first job as a Web Developer at
+              Amdocs after completing Intellipaat’s training. The program
+              equipped me with the skills and confidence to crack three
+              interviews successfully during campus placements, landing multiple
+              offers from top companies. I credit Intellipaat’s expert trainers
+              and outstanding support team for making my learning journey
+              effective and impactful. Their guidance has been instrumental in
+              helping me achieve a rewarding role at an MNC. 
+            </div>
+          </div>
+          <div class="card">
+            <div class="peopleInfo">
+              <div class="peopleImg">
+                <img src="Images/people.png" alt="interns" />
+              </div>
+              <div class="peopleName">Rahul R</div>
+            </div>
+            <div class="peopleCompany">
+              <div class="position">Web Developer at Amdocs, India</div>
+              <img
+                src="Images/amdocslogo.png"
+                alt="company-logo"
+                width="112"
+                height="32"
+              />
+            </div>
+            <div class="feedback">
+              I am thrilled to have secured my first job as a Web Developer at
+              Amdocs after completing Intellipaat’s training. The program
+              equipped me with the skills and confidence to crack three
+              interviews successfully during campus placements, landing multiple
+              offers from top companies. I credit Intellipaat’s expert trainers
+              and outstanding support team for making my learning journey
+              effective and impactful. Their guidance has been instrumental in
+              helping me achieve a rewarding role at an MNC. 
+            </div>
+          </div>
+          <div class="card">
+            <div class="peopleInfo">
+              <div class="peopleImg">
+                <img src="Images/people.png" alt="interns" />
+              </div>
+              <div class="peopleName">Rahul R</div>
+            </div>
+            <div class="peopleCompany">
+              <div class="position">Web Developer at Amdocs, India</div>
+              <img
+                src="Images/amdocslogo.png"
+                alt="company-logo"
+                width="112"
+                height="32"
+              />
+            </div>
+            <div class="feedback">
+              I am thrilled to have secured my first job as a Web Developer at
+              Amdocs after completing Intellipaat’s training. The program
+              equipped me with the skills and confidence to crack three
+              interviews successfully during campus placements, landing multiple
+              offers from top companies. I credit Intellipaat’s expert trainers
+              and outstanding support team for making my learning journey
+              effective and impactful. Their guidance has been instrumental in
+              helping me achieve a rewarding role at an MNC. 
+            </div>
+          </div>
+          <div class="card">
+            <div class="peopleInfo">
+              <div class="peopleImg">
+                <img src="Images/people.png" alt="interns" />
+              </div>
+              <div class="peopleName">Rahul R</div>
+            </div>
+            <div class="peopleCompany">
+              <div class="position">Web Developer at Amdocs, India</div>
+              <img
+                src="Images/amdocslogo.png"
+                alt="company-logo"
+                width="112"
+                height="32"
+              />
+            </div>
+            <div class="feedback">
+              I am thrilled to have secured my first job as a Web Developer at
+              Amdocs after completing Intellipaat’s training. The program
+              equipped me with the skills and confidence to crack three
+              interviews successfully during campus placements, landing multiple
+              offers from top companies. I credit Intellipaat’s expert trainers
+              and outstanding support team for making my learning journey
+              effective and impactful. Their guidance has been instrumental in
+              helping me achieve a rewarding role at an MNC. 
+            </div>
+          </div>
+        </div>
+    </section>
+
+      <section class="topCompanies">
+        <div class="commonContainer topCompaniesContainer">
+          <p>Top companies trust us</p>
+            <div class="logoSlider">
+                <div class="logoTrack topCompaniesLogo">
+                  <img src="Images/Accenture.png" alt="Accenture logo" />
+                  <img src="Images/Adobe.png" alt="Adobe logo" />
+                  <img src="Images/ajio.png" alt="Ajio logo" />
+                  <img src="Images/Amazon.png" alt="Amazon logo" />
+                  <img src="Images/Apple.png" alt="Apple logo" />
+                  <img src="Images/capgemini.png" alt="Capgemini logo" />
+                  <img src="Images/Accenture.png" alt="Accenture logo" />
+                  <img src="Images/Adobe.png" alt="Adobe logo" />
+                  <img src="Images/ajio.png" alt="Ajio logo" />
+                  <img src="Images/Amazon.png" alt="Amazon logo" />
+                  <img src="Images/Apple.png" alt="Apple logo" />
+                  <img src="Images/capgemini.png" alt="Capgemini logo" />
+                </div>
+          </div>
+        </div>
+      </section>
+      <section class="ads">
+        <div class="commonContainer">
+<div class="adssubContainer">
+         <div class="adsContainer">
+<div>
+    <p class="heading">Kickstart Your Career with Top Internships</p>
+    <p class="subHeading">Find internships that match your skills, passion, and career goals — from top companies and startups.</p>
+</div>
+<div class="watchBtn" onclick="openModal()">Watch Now</div>
+         </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+        <div class="commonContainer">
+            <div class="footerLinksContainer">
+<div>
+    <div class="footerLinkHeading">Internship by categories</div>
+    <div class="footerLinks">Computer Science Internships</div>
+    <div class="footerLinks">Computer Science Internships</div>
+    <div class="footerLinks">Computer Science Internships</div>
+    <div class="footerLinks">Computer Science Internships</div>
+    <div class="footerLinks">Computer Science Internships</div>
+</div>
+<div>
+    <div class="footerLinkHeading">Internship by categories</div>
+    <div class="footerLinks">Computer Science Internships</div>
+    <div class="footerLinks">Computer Science Internships</div>
+    <div class="footerLinks">Computer Science Internships</div>
+    <div class="footerLinks">Computer Science Internships</div>
+    <div class="footerLinks">Computer Science Internships</div>
+</div>
+<div>
+    <div class="footerLinkHeading">Internship by categories</div>
+    <div class="footerLinks">Computer Science Internships</div>
+    <div class="footerLinks">Computer Science Internships</div>
+    <div class="footerLinks">Computer Science Internships</div>
+    <div class="footerLinks">Computer Science Internships</div>
+    <div class="footerLinks">Computer Science Internships</div>
+</div>
+<div>
+    <div class="footerLinkHeading">Internship by categories</div>
+    <div class="footerLinks">Computer Science Internships</div>
+    <div class="footerLinks">Computer Science Internships</div>
+    <div class="footerLinks">Computer Science Internships</div>
+    <div class="footerLinks">Computer Science Internships</div>
+    <div class="footerLinks">Computer Science Internships</div>
+</div>
+            </div>
+            <section class="footerAddress">
+                <div class="footerAddressContainer">
+                    <div class="leftBox">
+                        <p>Terms & Conditions  I  Privacy Policy</p>
+                        <p>© Copyright 2011 - 2025 Intellipaat Software Solutions Pvt. Ltd.</p>
+                    </div>
+                    <div class="iconBox">
+                        <a><div><img src='Images/fb.svg' alt='icons'/></div></a>
+                        <a><div><img src='Images/x.svg' alt='icons'/></div></a>
+                        <a><div><img src='Images/youtube.svg' alt='icons'/></div></a>
+                        <a><div><img src='Images/instagram.svg' alt='icons'/></div></a>
+                    </div>
+                </div>
+                        </section>
+
+        </div>
+     
+    </footer>
+
+
+    <!-- Modal -->
+<div id="videoModal" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal()">&times;</span>
+      <h2>Course Preview</h2>
+      <div class="video-wrapper">
+        <video controls autoplay>
+          <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4" />
+        </video>
+      </div>
+    </div>
+  </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
