@@ -871,6 +871,7 @@ body.modal-open {
     padding: 40px 0;
     justify-content: center;
     flex-direction: column;
+    align-items: center;
   }
   .enrollmentData div:nth-child(2) {
     padding: 24px 0px;
@@ -879,6 +880,7 @@ body.modal-open {
     border-left: none;
     border-right: none;
     margin: 24px 0;
+    width: 167px;
   }
   .enrollmentData div .numbers {
     margin-bottom: 0;
